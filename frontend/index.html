@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Kitchen | Authentic Home Food</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Our Premium CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <div class="header-content">
+            <h1>Cloud Kitchen</h1>
+            <p class="subtitle">Experience the warmth of authentic, home-cooked meals delivered to your doorstep.</p>
+            <a href="#kitchen-list" class="btn-primary" style="width: auto; padding: 15px 40px; margin-top: 30px; display: inline-block;">Browse Kitchens</a>
+        </div>
+    </header>
+
+    <!-- CONTENT SECTION -->
+    <div class="container" id="kitchens">
+        <h2 class="section-title">Trending Kitchens</h2>
+        
+        <!-- The Grid where JS will inject cards -->
+        <div id="kitchen-list">
+            <!-- Loading State -->
+            <p style="color: grey; text-align: center; grid-column: 1/-1;">Loading kitchens from server...</p>
+        </div>
+    </div>
+
+    <!-- JS Script -->
+    <script src="app.js"></script>
+</body>
+</html>
