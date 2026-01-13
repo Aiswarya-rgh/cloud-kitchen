@@ -61,6 +61,7 @@ class Kitchen(BaseModel):
     speciality: str = ""  # What makes this kitchen special
     hospitality_note: str = ""  # Message about Indian hospitality
     
+    image_url: Optional[str] = None  # Profile/Cover photo of the kitchen
     created_at: Optional[datetime] = None
 
 
